@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+ 
+}
+
+
+.header {
+    width: 100%;
+    height: 15%; 
+    background-color: #ffcc00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header .knopa1 {
+    width: 30%; 
+    height: 60%; 
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDED9E;
+    border-radius: 20px;
+}
+
+.header img {
+    width: 15%;
+    margin: 30px;
+}
+
+.header .h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+  
+
+    
+}
+
+
+.contener {
+    width: 100%;
+    height: 70%; 
+   
+}
+
+.scrool {
+    width: 100%;
+    height: 100%;
+    overflow: scroll; 
+}
+
+.content {
+    height: 200%; 
+    padding: 20px;
+}
+
+.content img {
+    
+    margin-right: 20px;
+    width: 300px; 
+    height: 300px;
+}
+
+.content p {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+
+.niz {
+    width: 100%;
+    height: 15%; 
+    background-color: #ffcc00;
+    display: flex;
+    border: px black solid;
+}
+
+.niz-block {
+    width: 25%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px black solid;
+}
+
+.niz-block img {
+    width: 25%; 
+    height: auto;
+   
+}
+
